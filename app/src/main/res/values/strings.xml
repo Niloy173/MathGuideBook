@@ -1,0 +1,116 @@
+<resources>
+    <string name="app_name">MathGuide</string>
+    <string name="next">Next</string>
+    <string name="logo">logo</string>
+
+
+    <!--    //chapter 1 to 17-->
+
+    <string name="chapter_one">অধ্যায় ১</string>
+    <string name="chapter_two">অধ্যায় ২</string>
+    <string name="chapter_three">অধ্যায় ৩</string>
+    <string name="chapter_four">অধ্যায় ৪</string>
+    <string name="chapter_five">অধ্যায় ৫</string>
+    <string name="chapter_six">অধ্যায় ৬</string>
+    <string name="chapter_seven">অধ্যায় ৭</string>
+    <string name="chapter_eight">অধ্যায় ৮</string>
+    <string name="chapter_nine">অধ্যায় ৯</string>
+    <string name="chapter_ten">অধ্যায় ১০</string>
+    <string name="chapter_eleven">অধ্যায় ১১</string>
+    <string name="chapter_tweleve">অধ্যায় ১২</string>
+    <string name="chapter_thirteen">অধ্যায় ১৩</string>
+    <string name="chapter_fourteen">অধ্যায় ১৪</string>
+    <string name="chapter_fifteen">অধ্যায় ১৫</string>
+    <string name="chapter_sixteen">অধ্যায় ১৬</string>
+    <string name="chapter_seventeen">অধ্যায় ১৭</string>
+
+
+    <!--    chapter-names -->
+
+    <string name="One">বাস্তব সংখ্যা (সমাধান) </string>
+    <string name="Two">সেট ও ফাংশন (সমাধান) </string>
+    <string name="Three">বীজগাণিতীক রাশি (সমাধান)</string>
+    <string name="Four">সূচক ও লগারিদম (সমাধান)</string>
+    <string name="Five">এক চলকবিশিষট সমীকরণ (সমাধান)</string>
+    <string name="Six">রেখা,কোণও ত্রিভুজ (সমাধান)</string>
+    <string name="Seven">ব্যবহারিক জ্যামিতি (সমাধান)</string>
+    <string name="Eight">বৃও (সমাধান)</string>
+    <string name="Nine">ত্রিকোণমিতিক অনুপাত (সমাধান)</string>
+    <string name="Ten">দূরত্ব ও উচ্চতা (সমাধান)</string>
+    <string name="Eleven">বীজগাণিতীক অনুপাত ও সমানুপাত (সমাধান)</string>
+    <string name="Tweleve">দুই চলকবিশিষট সরল সহসমীকরণ (সমাধান)</string>
+    <string name="Thirteen">সসীম ধারা (সমাধান)</string>
+    <string name="Fourteen">.অনুপাত ,সদৃশতা ও প্রতিসমতা (সমাধান)</string>
+    <string name="Fifteen">ক্ষেএফল সম্পর্কিত উপপাদ্য ও সম্পদাদ্য (সমাধান)</string>
+    <string name="Sixteen">পরিমিতি (সমাধান)</string>
+    <string name="Seventeen">পরিসংখ্যান (সমাধান)</string>
+
+
+    <!--    chapter three list-->
+
+    <string name="three_one">অধ্যায় ৩.১</string>
+    <string name="three_two">অধ্যায় ৩.২</string>
+    <string name="three_three">অধ্যায় ৩.৩</string>
+    <string name="three_four">অধ্যায় ৩.৪</string>
+    <string name="three_five">অধ্যায় ৩.৫</string>
+
+
+    <!--    chapter two list-->
+
+    <string name="four_one">অধ্যায় ৪.১</string>
+    <string name="four_two">অধ্যায় ৪.২</string>
+    <string name="four_three">অধ্যায় ৪.৩</string>
+
+    <string name="fourteen_one">অধ্যায় ১৪.১</string>
+    <string name="fourteen_two">অধ্যায় ১৪.২</string>
+
+
+    <string name="two_one">অধ্যায় ২.১</string>
+    <string name="two_two">অধ্যায় ২.২</string>
+
+
+    <string name="five_one">অধ্যায় ৫.১</string>
+    <string name="five_two">অধ্যায় ৫.২</string>
+
+    <string name="nine_one">অধ্যায় ৯.১</string>
+    <string name="nine_two">অধ্যায় ৯.২</string>
+
+
+    <string name="eleven_one">অধ্যায় ১১.১</string>
+    <string name="eleven_two">অধ্যায় ১১.২</string>
+
+    <string name="thirteen_one">অধ্যায় ১৩.১</string>
+    <string name="thirteen_two">অধ্যায় ১৩.২</string>
+
+
+    <string name="six_one">অধ্যায় ৬.১</string>
+    <string name="six_two">অধ্যায় ৬.২</string>
+    <string name="six_three">অধ্যায় ৬.৩</string>
+
+
+    <string name="seven_one">অধ্যায় ৭.১</string>
+    <string name="seven_two">অধ্যায় ৭.২</string>
+
+    <string name="tweleve_one">অধ্যায় ১২.১</string>
+    <string name="tweleve_two">অধ্যায় ১২.২</string>
+    <string name="tweleve_three">অধ্যায় ১২.৩</string>
+    <string name="tweleve_four">অধ্যায় ১২.৪</string>
+
+
+    <string name="sixteen_one">অধ্যায় ১৬.১</string>
+    <string name="sixteen_two">অধ্যায় ১৬.২</string>
+    <string name="sixteen_three">অধ্যায় ১৬.৩</string>
+    <string name="sixteen_four">অধ্যায় ১৬.৪</string>
+
+
+    <string name="eight_one">অধ্যায় ৮.১</string>
+    <string name="eight_two">অধ্যায় ৮.২</string>
+    <string name="eight_three">অধ্যায় ৮.৩</string>
+    <string name="eight_four">অধ্যায় ৮.৪</string>
+    <string name="eight_five">অধ্যায় ৮.৫</string>
+
+
+    <string name="wait">অপেক্ষা করুন</string>
+
+
+</resources>

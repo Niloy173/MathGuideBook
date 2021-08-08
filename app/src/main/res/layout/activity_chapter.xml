@@ -1,0 +1,1104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ChapterActivity"
+    >
+
+
+    <LinearLayout
+        android:padding="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_margin="10dp"
+
+
+
+        >
+
+
+
+
+      <LinearLayout
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:weightSum="2"
+          android:orientation="horizontal"
+          android:layout_marginTop="5dp"
+
+
+
+          >
+
+
+
+          <ImageView
+              android:layout_width="108dp"
+              android:layout_height="108dp"
+              android:layout_margin="10dp"
+
+
+              android:padding="5dp"
+
+              android:src="@drawable/cover2"
+                      />
+
+          <LinearLayout
+              android:layout_width="0dp"
+              android:layout_height="match_parent"
+              android:layout_weight="2"
+              android:orientation="vertical"
+              android:id="@+id/chapter_one"
+              android:background="@drawable/chapter_design">
+
+              <TextView
+                  android:layout_width="match_parent"
+                  android:layout_height="wrap_content"
+                  android:text="@string/chapter_one"
+                  android:fontFamily="@font/kalpurush_ansi_regular"
+                  android:textSize="25sp"
+                  android:textStyle="bold"
+                  android:gravity="center_horizontal"
+                  android:layout_marginTop="10dp"/>
+
+              <TextView
+                  android:layout_width="match_parent"
+                  android:layout_height="wrap_content"
+                  android:text="বাস্তব সংখ্যা (সমাধান)"
+                  android:textSize="20sp"
+                  android:fontFamily="@font/kalpurush_ansi_regular"
+
+                  android:gravity="center_horizontal"
+                  android:layout_margin="5dp"
+                  />
+
+          </LinearLayout>
+
+
+
+      </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:weightSum="2"
+        android:orientation="horizontal"
+        android:layout_marginTop="7dp"
+
+
+
+        >
+
+
+
+        <ImageView
+            android:layout_width="108dp"
+            android:layout_height="108dp"
+            android:layout_margin="10dp"
+
+            android:padding="5dp"
+
+            android:src="@drawable/cover2"/>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="2"
+            android:orientation="vertical"
+            android:id="@+id/chapter_two"
+            android:background="@drawable/chapter_design">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/chapter_two"
+                android:textSize="25sp"
+                android:fontFamily="@font/kalpurush_ansi_regular"
+                android:textStyle="bold"
+                android:gravity="center_horizontal"
+                android:layout_marginTop="10dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/Two"
+                android:fontFamily="@font/kalpurush_ansi_regular"
+                android:textSize="20sp"
+                android:textStyle="normal"
+                android:gravity="center_horizontal"
+                android:layout_margin="5dp"
+                />
+        </LinearLayout>
+
+
+
+
+
+
+
+
+
+
+
+    </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:weightSum="2"
+            android:orientation="horizontal"
+            android:layout_marginTop="7dp"
+
+
+
+            >
+
+
+
+
+            <ImageView
+                android:layout_width="108dp"
+                android:layout_height="108dp"
+                android:layout_margin="10dp"
+
+                android:padding="5dp"
+
+                android:src="@drawable/cover2"/>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="2"
+                android:orientation="vertical"
+                android:background="@drawable/chapter_design"
+                android:id="@+id/chapter_three">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/chapter_three"
+                    android:fontFamily="@font/kalpurush_ansi_regular"
+                    android:textSize="25sp"
+                    android:textStyle="bold"
+                    android:gravity="center_horizontal"
+                    android:layout_marginTop="10dp"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/Three"
+                    android:fontFamily="@font/kalpurush_ansi_regular"
+                    android:textSize="20sp"
+                    android:textStyle="normal"
+                    android:gravity="center_horizontal"
+                    android:layout_margin="5dp"
+                    />
+            </LinearLayout>
+
+
+
+
+
+
+
+
+
+
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:weightSum="2"
+            android:orientation="horizontal"
+            android:layout_marginTop="7dp"
+
+
+            >
+
+
+
+            <ImageView
+                android:layout_width="108dp"
+                android:layout_height="108dp"
+                android:layout_margin="10dp"
+
+                android:padding="5dp"
+
+                android:src="@drawable/cover2"/>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="2"
+                android:orientation="vertical"
+                android:background="@drawable/chapter_design"
+                android:id="@+id/chapter_four">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="অধ্যায়	৪"
+                    android:fontFamily="@font/kalpurush_ansi_regular"
+                    android:textSize="25sp"
+                    android:textStyle="bold"
+                    android:gravity="center_horizontal"
+                    android:layout_marginTop="10dp"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/Four"
+                    android:fontFamily="@font/kalpurush_ansi_regular"
+                    android:textSize="20sp"
+                    android:textStyle="normal"
+                    android:gravity="center_horizontal"
+                    android:layout_margin="5dp"
+                    />
+            </LinearLayout>
+
+
+
+
+
+
+
+
+
+
+
+        </LinearLayout>
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:weightSum="2"
+            android:orientation="horizontal"
+            android:layout_marginTop="7dp"
+
+
+            >
+
+
+
+
+            <ImageView
+                android:layout_width="108dp"
+                android:layout_height="108dp"
+                android:layout_margin="10dp"
+
+                android:padding="5dp"
+
+                android:src="@drawable/cover2"/>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="2"
+                android:background="@drawable/chapter_design"
+                android:orientation="vertical"
+                android:id="@+id/chapter_five">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:fontFamily="@font/kalpurush_ansi_regular"
+                    android:gravity="center_horizontal"
+                    android:text="অধ্যায় ৫"
+                    android:textSize="25sp"
+                    android:textStyle="bold" />
+
+                <TextView
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:fontFamily="@font/kalpurush_ansi_regular"
+                    android:gravity="center_horizontal"
+                    android:text="@string/Five"
+                    android:textSize="18sp"
+                    android:textStyle="normal" />
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:weightSum="2"
+            android:orientation="horizontal"
+            android:layout_marginTop="7dp"
+
+
+            >
+
+
+
+
+            <ImageView
+                android:layout_width="108dp"
+                android:layout_height="108dp"
+                android:layout_margin="10dp"
+
+                android:padding="5dp"
+
+                android:src="@drawable/cover2"/>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="2"
+                android:orientation="vertical"
+                android:background="@drawable/chapter_design"
+                android:id="@+id/chapter_six">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/chapter_six"
+                    android:textSize="25sp"
+                    android:fontFamily="@font/kalpurush_ansi_regular"
+                    android:textStyle="bold"
+                    android:gravity="center_horizontal"
+                    android:layout_marginTop="10dp"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/Six"
+                    android:fontFamily="@font/kalpurush_ansi_regular"
+                    android:textSize="20sp"
+                    android:textStyle="normal"
+                    android:gravity="center_horizontal"
+                    android:layout_margin="5dp"
+                    />
+            </LinearLayout>
+
+
+
+
+
+
+
+
+
+
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:weightSum="2"
+            android:orientation="horizontal"
+            android:layout_marginTop="7dp"
+            android:id="@+id/chapter_seven"
+
+
+            >
+
+
+
+            <ImageView
+                android:layout_width="108dp"
+                android:layout_height="108dp"
+                android:layout_margin="10dp"
+
+                android:padding="5dp"
+
+                android:src="@drawable/cover2"/>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="2"
+                android:orientation="vertical"
+                android:background="@drawable/chapter_design">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="অধ্যায় ৭"
+                    android:textSize="25sp"
+                    android:fontFamily="@font/kalpurush_ansi_regular"
+                    android:textStyle="bold"
+                    android:gravity="center_horizontal"
+                    android:layout_marginTop="10dp"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/Seven"
+                    android:fontFamily="@font/kalpurush_ansi_regular"
+                    android:textSize="20sp"
+                    android:textStyle="normal"
+                    android:gravity="center_horizontal"
+                    android:layout_margin="5dp"
+                    />
+            </LinearLayout>
+
+
+
+
+
+
+
+
+
+
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:weightSum="2"
+            android:orientation="horizontal"
+            android:layout_marginTop="7dp"
+            android:id="@+id/chapter_eight"
+
+
+            >
+
+
+
+
+            <ImageView
+                android:layout_width="108dp"
+                android:layout_height="108dp"
+                android:layout_margin="10dp"
+
+                android:padding="5dp"
+
+                android:src="@drawable/cover2"/>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="2"
+                android:orientation="vertical"
+                android:background="@drawable/chapter_design">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/chapter_eight"
+                    android:textSize="25sp"
+                    android:fontFamily="@font/kalpurush_ansi_regular"
+                    android:textStyle="bold"
+                    android:gravity="center_horizontal"
+                    android:layout_marginTop="10dp"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/Eight"
+                    android:fontFamily="@font/kalpurush_ansi_regular"
+                    android:textSize="20sp"
+                    android:textStyle="normal"
+                    android:gravity="center_horizontal"
+                    android:layout_margin="5dp"
+                   />
+            </LinearLayout>
+
+
+
+
+
+
+
+
+
+
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:weightSum="2"
+            android:orientation="horizontal"
+            android:layout_marginTop="7dp"
+            android:id="@+id/chapter_nine"
+
+
+            >
+
+
+
+
+            <ImageView
+                android:layout_width="108dp"
+                android:layout_height="108dp"
+                android:layout_margin="10dp"
+
+                android:padding="5dp"
+
+                android:src="@drawable/cover2"/>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="2"
+                android:orientation="vertical"
+                android:background="@drawable/chapter_design">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/chapter_nine"
+                    android:textSize="25sp"
+                    android:fontFamily="@font/kalpurush_ansi_regular"
+                    android:textStyle="bold"
+                    android:gravity="center_horizontal"
+                    android:layout_marginTop="10dp"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/Nine"
+                    android:fontFamily="@font/kalpurush_ansi_regular"
+                    android:textSize="20sp"
+                    android:textStyle="normal"
+                    android:gravity="center_horizontal"
+                    android:layout_margin="5dp"
+                    />
+            </LinearLayout>
+
+
+
+
+
+
+
+
+
+
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:weightSum="2"
+            android:orientation="horizontal"
+            android:layout_marginTop="7dp"
+            android:id="@+id/chapter_ten"
+
+
+            >
+
+
+
+
+            <ImageView
+                android:layout_width="108dp"
+                android:layout_height="108dp"
+                android:layout_margin="10dp"
+
+                android:padding="5dp"
+
+                android:src="@drawable/cover2"/>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="2"
+                android:orientation="vertical"
+                android:background="@drawable/chapter_design">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/chapter_ten"
+                    android:textSize="25sp"
+                    android:fontFamily="@font/kalpurush_ansi_regular"
+                    android:textStyle="bold"
+                    android:gravity="center_horizontal"
+                    android:layout_marginTop="10dp"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/Ten"
+                    android:fontFamily="@font/kalpurush_ansi_regular"
+                    android:textSize="20sp"
+                    android:textStyle="normal"
+                    android:gravity="center_horizontal"
+                    android:layout_margin="5dp"
+                    />
+            </LinearLayout>
+
+
+
+
+
+
+
+
+
+
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:weightSum="2"
+            android:orientation="horizontal"
+            android:layout_marginTop="7dp"
+            android:id="@+id/chapter_eleven"
+
+
+            >
+
+
+
+
+            <ImageView
+                android:layout_width="108dp"
+                android:layout_height="108dp"
+                android:layout_margin="10dp"
+
+                android:padding="5dp"
+
+                android:src="@drawable/cover2"/>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="2"
+                android:orientation="vertical"
+                android:background="@drawable/chapter_design">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/chapter_eleven"
+                    android:textSize="25sp"
+                    android:fontFamily="@font/kalpurush_ansi_regular"
+                    android:textStyle="bold"
+                    android:gravity="center_horizontal"
+                    android:layout_marginTop="10dp"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/Eleven"
+                    android:textSize="18sp"
+                    android:fontFamily="@font/kalpurush_ansi_regular"
+                    android:textStyle="normal"
+                    android:gravity="center_horizontal"
+                    android:layout_margin="5dp"
+                    />
+            </LinearLayout>
+
+
+
+
+
+
+
+
+
+
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:weightSum="2"
+            android:orientation="horizontal"
+            android:layout_marginTop="7dp"
+            android:id="@+id/chapter_tweleve"
+
+
+            >
+
+
+
+            <ImageView
+                android:layout_width="108dp"
+                android:layout_height="108dp"
+                android:layout_margin="10dp"
+
+                android:padding="5dp"
+
+                android:src="@drawable/cover2"/>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="2"
+                android:orientation="vertical"
+                android:background="@drawable/chapter_design">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/chapter_tweleve"
+                    android:textSize="25sp"
+                    android:fontFamily="@font/kalpurush_ansi_regular"
+                    android:textStyle="bold"
+                    android:gravity="center_horizontal"
+                    android:layout_marginTop="10dp"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/Tweleve"
+                    android:textSize="18sp"
+                    android:fontFamily="@font/kalpurush_ansi_regular"
+                    android:textStyle="normal"
+                    android:gravity="center_horizontal"
+                    android:layout_margin="5dp"
+                    />
+            </LinearLayout>
+
+
+
+
+
+
+
+
+
+
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:weightSum="2"
+            android:orientation="horizontal"
+            android:layout_marginTop="7dp"
+            android:id="@+id/chapter_thirteen"
+
+
+            >
+
+
+
+
+            <ImageView
+                android:layout_width="108dp"
+                android:layout_height="108dp"
+                android:layout_margin="10dp"
+
+                android:padding="5dp"
+
+                android:src="@drawable/cover2"/>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="2"
+                android:orientation="vertical"
+                android:background="@drawable/chapter_design">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/chapter_thirteen"
+                    android:textSize="25sp"
+                    android:fontFamily="@font/kalpurush_ansi_regular"
+                    android:textStyle="bold"
+                    android:gravity="center_horizontal"
+                    android:layout_marginTop="10dp"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/Thirteen"
+                    android:fontFamily="@font/kalpurush_ansi_regular"
+                    android:textSize="20sp"
+                    android:textStyle="normal"
+                    android:gravity="center_horizontal"
+                    android:layout_margin="5dp"
+                    />
+            </LinearLayout>
+
+
+
+
+
+
+
+
+
+
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:weightSum="2"
+            android:orientation="horizontal"
+            android:layout_marginTop="7dp"
+            android:id="@+id/chapter_fourteen"
+
+
+            >
+
+
+
+
+            <ImageView
+                android:layout_width="108dp"
+                android:layout_height="108dp"
+                android:layout_margin="10dp"
+
+                android:padding="5dp"
+
+                android:src="@drawable/cover2"/>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="2"
+                android:orientation="vertical"
+                android:background="@drawable/chapter_design">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/chapter_fourteen"
+                    android:textSize="25sp"
+                    android:fontFamily="@font/kalpurush_ansi_regular"
+                    android:textStyle="bold"
+                    android:gravity="center_horizontal"
+                    android:layout_marginTop="10dp"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/Fourteen"
+                    android:fontFamily="@font/kalpurush_ansi_regular"
+                    android:textSize="18sp"
+                    android:textStyle="normal"
+                    android:gravity="center_horizontal"
+                    android:layout_margin="5dp"
+                    />
+            </LinearLayout>
+
+
+
+
+
+
+
+
+
+
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:weightSum="2"
+            android:orientation="horizontal"
+            android:layout_marginTop="7dp"
+            android:id="@+id/chapter_fifteen"
+
+
+            >
+
+
+
+
+            <ImageView
+                android:layout_width="108dp"
+                android:layout_height="108dp"
+                android:layout_margin="10dp"
+
+                android:padding="5dp"
+
+                android:src="@drawable/cover2"/>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="2"
+                android:orientation="vertical"
+                android:background="@drawable/chapter_design">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/chapter_fifteen"
+                    android:textSize="25sp"
+                    android:fontFamily="@font/kalpurush_ansi_regular"
+                    android:textStyle="bold"
+                    android:gravity="center_horizontal"
+                    android:layout_marginTop="10dp"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/Fifteen"
+                    android:fontFamily="@font/kalpurush_ansi_regular"
+                    android:textSize="18sp"
+                    android:textStyle="normal"
+                    android:gravity="center_horizontal"
+                    android:layout_margin="5dp"
+                    />
+            </LinearLayout>
+
+
+
+
+
+
+
+
+
+
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:weightSum="2"
+            android:orientation="horizontal"
+            android:layout_marginTop="7dp"
+            android:id="@+id/chapter_sixteen"
+
+
+            >
+
+
+
+
+            <ImageView
+                android:layout_width="108dp"
+                android:layout_height="108dp"
+                android:layout_margin="10dp"
+
+                android:padding="5dp"
+
+                android:src="@drawable/cover2"/>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="2"
+                android:orientation="vertical"
+                android:background="@drawable/chapter_design">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/chapter_sixteen"
+                    android:textSize="25sp"
+                    android:fontFamily="@font/kalpurush_ansi_regular"
+                    android:textStyle="bold"
+                    android:gravity="center_horizontal"
+                    android:layout_marginTop="10dp"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/Sixteen"
+                    android:fontFamily="@font/kalpurush_ansi_regular"
+                    android:textSize="20sp"
+                    android:textStyle="normal"
+                    android:gravity="center_horizontal"
+                    android:layout_margin="5dp"
+                    />
+            </LinearLayout>
+
+
+
+
+
+
+
+
+
+
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:weightSum="2"
+            android:orientation="horizontal"
+            android:layout_marginTop="7dp"
+            android:id="@+id/chapter_seventeen"
+            android:layout_marginBottom="10dp"
+
+
+            >
+
+
+
+            <ImageView
+                android:layout_width="108dp"
+                android:layout_height="108dp"
+                android:layout_margin="10dp"
+
+                android:padding="5dp"
+
+                android:src="@drawable/cover2"/>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="2"
+                android:orientation="vertical"
+                android:background="@drawable/chapter_design">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/chapter_seventeen"
+                    android:textSize="25sp"
+                    android:fontFamily="@font/kalpurush_ansi_regular"
+                    android:textStyle="bold"
+                    android:gravity="center_horizontal"
+                    android:layout_marginTop="10dp"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/Seventeen"
+                    android:fontFamily="@font/kalpurush_ansi_regular"
+                    android:textSize="20sp"
+                    android:textStyle="normal"
+                    android:gravity="center_horizontal"
+                    android:layout_margin="5dp"
+                    />
+            </LinearLayout>
+
+
+
+
+
+
+
+
+
+
+
+        </LinearLayout>
+
+
+
+
+
+
+
+
+
+
+    </LinearLayout>
+
+</ScrollView>
