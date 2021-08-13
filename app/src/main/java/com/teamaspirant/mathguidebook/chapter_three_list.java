@@ -1,4 +1,4 @@
-package com.example.mathguidebook;
+package com.teamaspirant.mathguidebook;
 
 import androidx.appcompat.app.AppCompatActivity;
 

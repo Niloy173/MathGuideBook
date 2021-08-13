@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.mathguidebook">
+    package="com.teamaspirant.mathguidebook">
 
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
     <uses-permission android:name="android.permission.INTERNET" />
@@ -12,32 +12,33 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.MathGuideBook.NoActionBar">
-        <activity android:name=".chapterFourteen"></activity>
-        <activity android:name=".chapterTweleve" />
-        <activity android:name=".CommonActivity" />
+        <activity android:name="com.teamaspirant.mathguidebook.chapterFourteen"></activity>
+        <activity android:name="com.teamaspirant.mathguidebook.chapterTweleve" />
+        <activity android:name="com.teamaspirant.mathguidebook.CommonActivity" />
         <activity
-            android:name=".ShowPdf"
+            android:name="com.teamaspirant.mathguidebook.ShowPdf"
             android:screenOrientation="fullUser"
             android:theme="@style/Theme.MathGuideBook.NoActionBar" />
-        <activity android:name=".chapterSeven" />
-        <activity android:name=".chapterSix" />
-        <activity android:name=".chapterThirteen" />
-        <activity android:name=".chapterEleven" />
-        <activity android:name=".chapterNine" />
-        <activity android:name=".chapterFive" />
-        <activity android:name=".chapterFour" />
-        <activity android:name=".chapterTwo" />
-        <activity android:name=".chapterSeventeen" />
-        <activity android:name=".chapterFifteen" />
-        <activity android:name=".chapterTen" />
-        <activity android:name=".chapter_eight_list" />
-        <activity android:name=".chapter_three_list" />
-        <activity android:name=".chapter_sixteen_list" />
-        <activity android:name=".chapterOne" />
-        <activity android:name=".ChapterActivity" />
+        <activity android:name="com.teamaspirant.mathguidebook.chapterSeven" />
+        <activity android:name="com.teamaspirant.mathguidebook.chapterSix" />
+        <activity android:name="com.teamaspirant.mathguidebook.chapterThirteen" />
+        <activity android:name="com.teamaspirant.mathguidebook.chapterEleven" />
+        <activity android:name="com.teamaspirant.mathguidebook.chapterNine" />
+        <activity android:name="com.teamaspirant.mathguidebook.chapterFive" />
+        <activity android:name="com.teamaspirant.mathguidebook.chapterFour" />
+        <activity android:name="com.teamaspirant.mathguidebook.chapterTwo" />
+        <activity android:name="com.teamaspirant.mathguidebook.chapterSeventeen" />
+        <activity android:name="com.teamaspirant.mathguidebook.chapterFifteen" />
+        <activity android:name="com.teamaspirant.mathguidebook.chapterTen" />
+        <activity android:name="com.teamaspirant.mathguidebook.chapter_eight_list" />
+        <activity android:name="com.teamaspirant.mathguidebook.chapter_three_list" />
+        <activity android:name="com.teamaspirant.mathguidebook.chapter_sixteen_list" />
+        <activity android:name="com.teamaspirant.mathguidebook.chapterOne" />
+        <activity android:name="com.teamaspirant.mathguidebook.ChapterActivity" />
         <activity
-            android:name=".MainActivity"
+            android:name="com.teamaspirant.mathguidebook.MainActivity"
             android:label="@string/app_name"
+            android:exported="true"
             android:screenOrientation="portrait"
             android:theme="@style/Theme.MathGuideBook.NoActionBar">
             <intent-filter>

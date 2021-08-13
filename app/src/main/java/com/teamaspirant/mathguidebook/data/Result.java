@@ -1,4 +1,4 @@
-package com.example.mathguidebook.data;
+package com.teamaspirant.mathguidebook.data;
 
 /**
  * A generic class that holds a result success w/ data or an error exception.

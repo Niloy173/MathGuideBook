@@ -9,13 +9,14 @@
     android:orientation="vertical"
 
     android:id="@+id/back"
+    android:background="@color/black"
     >
 
-   <pl.droidsonroids.gif.GifImageView
+   <ImageView
        android:layout_width="400dp"
        android:layout_height="400dp"
-       android:src="@drawable/logo"
-       />
+       android:src="@drawable/thumbnail"
+       android:contentDescription="Logo" />
 
     <ProgressBar
         android:layout_width="wrap_content"

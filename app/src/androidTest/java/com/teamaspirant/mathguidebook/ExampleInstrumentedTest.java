@@ -1,4 +1,4 @@
-package com.example.mathguidebook;
+package com.teamaspirant.mathguidebook;
 
 import android.content.Context;
 

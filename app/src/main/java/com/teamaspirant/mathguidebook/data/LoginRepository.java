@@ -1,6 +1,6 @@
-package com.example.mathguidebook.data;
+package com.teamaspirant.mathguidebook.data;
 
-import com.example.mathguidebook.data.model.LoggedInUser;
+import com.teamaspirant.mathguidebook.data.model.LoggedInUser;
 
 /**
  * Class that requests authentication and user information from the remote data source and

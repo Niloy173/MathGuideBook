@@ -1,13 +1,10 @@
-package com.example.mathguidebook;
+package com.teamaspirant.mathguidebook;
 
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
 import android.os.Bundle;
 import android.widget.ProgressBar;
-import android.widget.Toast;
-
-import com.github.barteksc.pdfviewer.PDFView;
 
 import java.util.Timer;
 import java.util.TimerTask;

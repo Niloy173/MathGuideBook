@@ -1,4 +1,4 @@
-package com.example.mathguidebook.data.model;
+package com.teamaspirant.mathguidebook.data.model;
 
 /**
  * Data class that captures user information for logged in users retrieved from LoginRepository

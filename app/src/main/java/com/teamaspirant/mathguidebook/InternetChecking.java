@@ -1,10 +1,7 @@
-package com.example.mathguidebook;
+package com.teamaspirant.mathguidebook;
 
 import android.content.Context;
 import android.net.ConnectivityManager;
-
-import java.net.InetAddress;
-import java.net.UnknownHostException;
 
 public class InternetChecking {
 
