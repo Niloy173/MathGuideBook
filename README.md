@@ -1,8 +1,13 @@
-# MathGuideBook
-This is a Simple Math Solution App for Class 9-10 in BD 
+
+<h2 align="center">MathGuideBook - This is a Simple Math Solution App for Class 9-10 in BD </h2>
 
 
-![Capture](https://user-images.githubusercontent.com/63700841/181443874-67ca8fc3-686e-4933-a4ee-ff0fd004d84a.PNG)
+<p align="center">
+
+ <img  src="https://user-images.githubusercontent.com/63700841/181491260-753b58a4-9417-4243-8a06-0470f0ba9550.png"/>
+
+
+</p>
 
 
 # How It Works
