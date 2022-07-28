@@ -5,10 +5,14 @@
 <p align="center">
 
  <img  src="https://user-images.githubusercontent.com/63700841/181491260-753b58a4-9417-4243-8a06-0470f0ba9550.png"/>
-
-
+ 
 </p>
 
+<p align="center">
+
+  <img src="https://user-images.githubusercontent.com/63700841/181494863-9a34e201-d8da-46f0-8c61-920f585ff34c.png" />
+
+</p>
 
 # How It Works
 
